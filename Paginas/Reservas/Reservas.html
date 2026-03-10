@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVAS</title>
+</head>
+<body>
+    <header>
+        <h1>RESERVAS</h1>
+
+        <nav>
+            <a href="../../index.html">INICIO</a>
+        </nav>
+        <br>
+        <img src="reservas.png" width="1333" height="100">
+    </header> 
+    <br>
+
+    <main>
+        <form>
+            <label><strong>REALIZA TU RESERVA</strong></label>
+            <br><br>
+
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" placeholder="Escriba su nombre" required>
+            <br><br>
+
+            <label>Apellidos</label><br>
+            <input type="text" name="apellidos" placeholder="Escriba sus apellidos" required>
+            <br><br>
+
+            <label>Correo Electronico</label><br>
+            <input type="email" name="email" placeholder="Escriba su email" required>
+            <br><br>
+
+            <label>Número de Celular:</label><br>
+            <input type="number" name="numero" placeholder="Escriba su número de celular" required>
+            <br><br>
+
+            <label>DNI:</label><br>
+            <input type="number" name="dni" placeholder="Escriba su número de DNI" required>
+            <br><br>
+
+            <label>Locales:</label><br>
+            <select name="local" required>
+                <option value="">Seleccione el Local</option>
+                <option value="VS">Villa Salvador (Av. Pachacútec 15828)</option>
+                <option value="Surqillo">Surquillo (Av. Tomás Marsano 15048)</option>
+                <option value="Barranco">Barranco (Av. Nicolás de Piérola 302)</option>
+                <option value="Chorrillos">Chorrillos (Av. Guardia Civil Sur 356)</option>
+            </select>
+            <br><br>
+
+            <label>Fecha:</label>
+            <input type="date" name="fecha" required>
+            &nbsp; &nbsp;
+
+            <label>Hora:</label>
+            <input type="time" name="hora" required>
+            <br><br>
+
+            <label>Motivo:</label><br>
+            <input type="text" placeholder="Cumpleaños, Cita" required>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>

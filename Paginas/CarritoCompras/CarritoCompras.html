@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRITO DE COMPRAS</title>
+</head>
+<body>
+    <header>
+        <h1>CARRITO DE COMPRAS</h1>
+        <nav>
+            <a href="../../index.html">INICIO</a> &nbsp; &nbsp;
+            <a href="../MisPedidos/MisPedidos.html">ATRÁS</a>
+        </nav>
+        <br>
+        <img src="carritocompras.png" width="1333" height="100">
+    </header>
+    
+    <main>
+        <br>
+        <table border="1" width ="80%">
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>1/4 Pollo + Papas</td>
+                <td><input type="number"></td>
+                <td>S/ 22.90</td>
+            </tr>
+        </table>
+
+        <form action="../MisPedidos/MisPedidos.html">
+            <p>Método de pago:
+                <select>
+                    <option>Efectivo</option>
+                    <option>Yape/Plin</option>
+                    <option>Tarjeta</option>
+                </select>
+                <br> <br>
+                <input type="submit" value="FINALIZAR COMPRA">
+        </form>
+    </main>
+</body>
+</html>

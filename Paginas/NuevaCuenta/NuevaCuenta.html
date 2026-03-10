@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREAR NUEVA CUENTA</title>
+</head>
+<body>
+    <header>
+        <h1>CREAR NUEVA CUENTA</h1>
+        <nav>
+            <a href="../../index.html">INICIO</a> &nbsp; &nbsp;
+            <a href="../NuevaCuenta/NuevaCuenta.html">ATRÁS</a>
+        </nav>
+        <br>
+    </header>
+
+    <main>
+        <form>
+            <label>Nombres</label>
+            <input type="text" required> <br>
+            <br>
+
+            <label>Apellidos:</label>
+            <input type="text" required> <br>
+            <br>
+
+            <label>DNI:</label>
+            <input type="number" placeholder="Ejm: 123456789"  required> <br>
+            <br>
+
+            <label>País:</label>
+            <select name="pais">
+                <option value="">Seleccione su País</option>
+                <option value="Perú">Perú</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+            </select> 
+            <br><br>
+
+            <label>Número de Teléfono:</label>
+            <input type="number" placeholder="Ejm: 123 456 789" required><br>
+            <br>
+
+            <label>Correo Electronico:</label>
+            <input type="email" placeholder="Ejm:pepito@gmail.com" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,3}$" required /><br>
+            <br>
+
+            <label>Constraseña::</label>
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required /><br>
+            <ul>
+                <li>
+                    Mínimo 8 caracteres.
+                </li>
+                <li>
+                    Al menos una letra mayúscula.
+                </li>
+                <li>
+                    Al menos una letra minúscula.
+                </li>
+                <li>
+                    Al menos un número.
+                </li>
+            </ul>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    
+</body>
+</html>
